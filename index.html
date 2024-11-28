@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Conversor</title>
+</head>
+<body>
+
+    <header>  
+        <h1>Conversor de Temperaturas</h1>
+    </header>
+
+    <main>
+
+        <div class="temp">
+            <p>Temperatura:</p>
+            <input id="tempe" type="number" placeholder="0,0">
+        </div>
+
+        <div class="sel1">
+            <p>De:</p>
+            <select name="" id="inp1" class="inp1">
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Celsius">Celsius</option>
+            </select>
+        </div>
+
+        <div class="sel2">
+            <p>Para:</p>
+            <select name="" id="inp2" class="inp2">
+                <option value="Celsius">Celsius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+            </select>
+        </div>
+
+        <button onclick="converter()">Converter</button>
+
+        <div class="result"></div>
+    </main>
+
+    <script src="assets/script.js"></script>
+
+</body>
+</html>
